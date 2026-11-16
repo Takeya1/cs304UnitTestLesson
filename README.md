@@ -1,4 +1,5 @@
 # CS 304 – Unit Testing (Nov 2)
+![tests](https://github.com/takeya1/cs304UnitTestLesson/actions/workflows/tests.yml/badge.svg)
 
 Setup (once):
 
@@ -37,5 +38,5 @@ Pair C: `letter_grade`   → attacks `is_leap_year`
 
 1. Extract a pure function: `final_score(score, submitted_at, deadline) -> float`.
 2. Pass the deadline in instead of reading the global.
-3. Have the report return its lines instead of printing them (and get rid of the `REPORT` globe.
+3. Have the report return its lines instead of printing them (and get rid of the `REPORT` global)
 4. Write `decompose/test_submissions_report.py`. Use the late-penalty spec from `swap/grading.py`.
